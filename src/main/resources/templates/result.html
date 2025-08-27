@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f6f8; margin:0; }
+        .container { max-width: 600px; margin: 60px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #333; }
+        .result { margin-top: 20px; font-size: 18px; color: #555; }
+        img { max-width: 100%; margin-top: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .button-container { margin-top: 30px; }
+        .btn { padding: 12px 20px; background-color: #4CAF50; color: white; font-size: 16px; border: none; border-radius: 8px; cursor: pointer; text-decoration: none; transition: background 0.3s; }
+        .btn:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Analysis Result</h1>
+    <div class="result">
+        <p><strong>File:</strong> <span th:text="${result.fileName}"></span></p>
+        <p><strong>Analysis:</strong> <span th:text="${result.analysisText}"></span></p>
+    </div>
+    <div>
+        <img th:src="@{/uploads/{image}(image=${result.fileName})}" alt="Uploaded Image">
+    </div>
+    <div class="button-container">
+        <a th:href="@{/}" class="btn">Analyze Another Image</a>
+    </div>
+</div>
+</body>
+</html>

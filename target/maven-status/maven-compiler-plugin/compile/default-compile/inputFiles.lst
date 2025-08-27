@@ -1,0 +1,10 @@
+C:\image\src\main\java\com\example\chatbot\ChatbotApplication.java
+C:\image\src\main\java\com\example\chatbot\config\FileStorageProperties.java
+C:\image\src\main\java\com\example\chatbot\config\WebConfig.java
+C:\image\src\main\java\com\example\chatbot\controller\ImageController.java
+C:\image\src\main\java\com\example\chatbot\model\AnalysisResult.java
+C:\image\src\main\java\com\example\chatbot\service\classifications.java
+C:\image\src\main\java\com\example\chatbot\service\FileStorageService.java
+C:\image\src\main\java\com\example\chatbot\service\Image.java
+C:\image\src\main\java\com\example\chatbot\service\ImageFactory.java
+C:\image\src\main\java\com\example\chatbot\service\ImageRecognitionService.java

@@ -1,0 +1,10 @@
+com\example\chatbot\service\FileStorageService.class
+com\example\chatbot\config\FileStorageProperties.class
+com\example\chatbot\controller\ImageController.class
+com\example\chatbot\config\WebConfig.class
+com\example\chatbot\service\ImageRecognitionService.class
+com\example\chatbot\ChatbotApplication.class
+com\example\chatbot\service\Image.class
+com\example\chatbot\model\AnalysisResult.class
+com\example\chatbot\service\ImageFactory.class
+com\example\chatbot\service\classifications.class
